@@ -21,7 +21,7 @@
   <parent>
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
-    <version>33-SNAPSHOT</version>
+    <version>33</version>
   </parent>
 
   <artifactId>mybatis</artifactId>
@@ -190,6 +190,17 @@
       <version>3.1</version>
       <optional>true</optional>
     </dependency>
+    <!--可以使用以下配置来使用 logback 日志框架-->
+    <!--<dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.3</version>
+    </dependency>-->
 
     <!-- Test dependencies -->
     <dependency>
